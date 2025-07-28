@@ -1,1 +1,1 @@
-I am trying to develop a code which will take password as input only if it's length is greater than 12 characters with atleast one Numeric and 1 special character.
+I am trying to develop a code which will take password as input only if it's length is greater than 10 characters.
