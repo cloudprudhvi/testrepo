@@ -1,1 +1,10 @@
 I am trying to develop a code which will take password as input only if it's length is greater than 10 characters. adding some stuff, removing unnecessary stuff.
+
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   28  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   29  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   30  apt-cache policy docker-ce
+   31  sudo apt install docker-ce
+   32  sudo systemctl status docker
+   33  docker ps
